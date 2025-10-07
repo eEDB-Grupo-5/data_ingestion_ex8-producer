@@ -1,0 +1,83 @@
+{
+  "type": "record",
+  "name": "reclamacoes",
+  "namespace": "ex7_producer",
+  "fields": [
+    {
+      "name": "ano",
+      "type": "string"
+    },
+    { 
+      "name": "trimestre",
+      "type": "string"
+    },
+    {
+      "name": "categoria",
+      "type": "string"
+    },
+    {
+      "name": "tipo",
+      "type": "string"
+    },
+    {
+      "name": "cnpj_if",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "instituicao_financeira",
+      "type": "string"
+    },
+    {
+      "name": "indice",
+      "type": "string"
+    },
+    {
+      "name": "quantidade_de_reclamacoes_reguladas_procedentes",
+      "type": "string"
+    },
+    {
+      "name": "quantidade_de_reclamacoes_reguladas_outras",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "quantidade_de_reclamacoes_nao_reguladas",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "quantidade_total_de_reclamacoes",
+      "type": "string"
+    },
+    {
+      "name": "quantidade_total_de_clientes_ccs_e_scr",
+      "type": "string"
+    },
+    {
+      "name": "quantidade_de_clientes_ccs",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "quantidade_de_clientes_scr",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}

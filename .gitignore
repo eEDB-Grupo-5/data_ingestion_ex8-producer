@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Data files
+*.sqlite3
+*.db
+*.parquet
+*.csv
+*.tsv
+
+# Docker
+*.pid
+*.pid.lock
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+
+# S3/LocalStack
+.localstack/
+
+# Misc
+*.bak
+uncommitted/
+
+GEMINI.md
